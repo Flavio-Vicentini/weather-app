@@ -1,5 +1,3 @@
-console.log('js client is loaded')
-
 const weatherForm = document.querySelector('form')
 const search = document.querySelector('input')
 const mainContent = document.querySelector('.main-content')
