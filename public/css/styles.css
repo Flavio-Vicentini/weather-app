@@ -13,6 +13,22 @@ body {
     flex-grow:1;
 }
 
+.result-content {
+    display: flex;
+    gap:8px; 
+    margin-top: 16px;
+}
+.result-content p {
+    line-height: 5px;
+}
+.result-content img {
+    margin-top:16px;
+    max-height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    
+}
+
 footer {
     color: #666666;
     border-top: 1px solid #eeeeee;
@@ -37,6 +53,7 @@ header a {
 
 .portrait {
     width: 250px;
+    border-radius: 50%;
 
 }
 

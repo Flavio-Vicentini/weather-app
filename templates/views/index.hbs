@@ -10,13 +10,16 @@
 <body>
     <div class="main-content">
         {{>header}}
-        <p>Use this site to get yout weather</p>
+        <p>Use this site to get yout weather!</p>
         <form>
             <input placeholder="Location">
             <button>Search</button>
         </form>
-    <p id='loading-msg'></p>
-    <p id ='result-msg'></p>
+        <div class='result-content'>
+            <img src="">
+            <p id='loading-msg'></p>
+            <p id ='result-msg'></p>
+        </div>
     </div>
     {{>footer}}
 </body>
